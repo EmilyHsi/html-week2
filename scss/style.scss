@@ -1,0 +1,189 @@
+*, *::before, *::after{
+  box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+  vertical-align: middle;
+  // width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  opacity: .7;
+}
+body {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.text-white {
+  color: #fff;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+h2 {
+  font-size: 64px;
+  line-height: 84px;
+}
+h1 {
+  font-size: 80px;
+}
+.header {
+  background: url('../images/banner.png') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  
+  &-content {
+    width: 308px;
+    margin: 0 auto;
+  }
+}
+.lh-42 {
+  line-height: 42px
+}
+.mr-24 {
+  margin-right: 24px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+.pr-16 {
+  padding-right: 16px;
+}
+.about {
+  .experience {
+    li::before {
+      content: '';
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      background-color: #891818;
+      border-radius: 50%;
+      margin-right: 16px;
+    }
+  }
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.border-bottom {
+  width: 384px;
+  border-bottom: 1px solid #000;
+}
+.mb-4 {
+margin-bottom: 4px;
+}
+.mb-8 {
+margin-bottom: 8px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-68 {
+  margin-bottom: 68px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.my-brand {
+  background: #000;
+  padding-top: 56px;
+  padding-bottom: 160px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-56 {
+  margin-bottom: 56px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.other-works {
+  padding-top: 56px;
+  padding-bottom: 144px;
+}
+.footer {
+  background: #000;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
